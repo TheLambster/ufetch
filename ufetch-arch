@@ -54,7 +54,7 @@ cat <<EOF
 
 ${c0}        /\        ${nc}${USER}${ic}@${nc}${host}${reset}
 ${c0}       /^^\       ${lc}Operating System:        ${ic}${os}${reset}
-${c0}      /\   \      ${lc}Kernel:    ${ic}${kernel}${reset}
+${c0}      /\   \      ${lc}Linux Kernel:    ${ic}${kernel}${reset}
 ${c0}     /  ${c1}__  \     ${lc}System Uptime:    ${ic}${uptime}${reset}
 ${c1}    /  (  )  \    ${lc}Installed Packages:  ${ic}${packages}${reset}
 ${c1}   / __|  |__\\\\   ${lc}Shell:     ${ic}${shell}${reset}
