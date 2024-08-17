@@ -24,7 +24,7 @@ if [ -z "${WM}" ]; then
 		WM="$(tail -n 1 "${HOME}/.xinitrc" | cut -d ' ' -f 2)"
 	fi
 else
-	envtype='WM'
+	envtype='Window Manager'
 fi
 
 ## DEFINE COLORS
