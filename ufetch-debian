@@ -17,7 +17,7 @@ if [ -z "${WM}" ]; then
 		envtype='Desktop Enviornment'
 		WM="${XDG_CURRENT_DESKTOP}"
 	elif [ "${DESKTOP_SESSION}" ]; then
-		envtype='Desktop Environment'
+		envtype='Desktop Enviornment'
 		WM="${DESKTOP_SESSION}"
 	else
 		envtype='Window Manager'
