@@ -52,11 +52,11 @@ c0="${reset}${white}"			# first color
 cat <<EOF
 ${c0}       _____
 ${c0}      /   __/  ${nc}${USER}${ic}@${nc}${host}${reset}
-${c0}     |  /      ${lc}OS:        ${ic}${os}${reset}
-${c0}    _|  |_     ${lc}KERNEL:    ${ic}${kernel}${reset}
-${c0}   |_    _|    ${lc}UPTIME:    ${ic}${uptime}${reset}
-${c0}     |  |      ${lc}PACKAGES:  ${ic}${packages}${reset}
-${c0}   __/  |      ${lc}SHELL:     ${ic}${shell}${reset}
+${c0}     |  /      ${lc}Operating System:        ${ic}${os}${reset}
+${c0}    _|  |_     ${lc}Linux Kernel:    ${ic}${kernel}${reset}
+${c0}   |_    _|    ${lc}System Uptime:    ${ic}${uptime}${reset}
+${c0}     |  |      ${lc}Installed Packages:  ${ic}${packages}${reset}
+${c0}   __/  |      ${lc}Shell:     ${ic}${shell}${reset}
 ${c0}  /____/       ${lc}${envtype}:        ${ic}${WM}${reset}
 
 EOF
