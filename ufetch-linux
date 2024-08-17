@@ -13,17 +13,17 @@ shell="$(basename ${SHELL})"
 
 if [ -z "${WM}" ]; then
 	if [ "${XDG_CURRENT_DESKTOP}" ]; then
-		envtype='DE'
+		envtype='Desktop Enviornment'
 		WM="${XDG_CURRENT_DESKTOP}"
 	elif [ "${DESKTOP_SESSION}" ]; then
-		envtype='DE'
+		envtype='Desktop Enviornment'
 		WM="${DESKTOP_SESSION}"
 	else
-		envtype='WM'
+		envtype='Window Manager'
 		WM="$(tail -n 1 "${HOME}/.xinitrc" | cut -d ' ' -f 2)"
 	fi
 else
-	envtype='WM'
+	envtype='Window Manager'
 fi
 
 ## DEFINE COLORS
